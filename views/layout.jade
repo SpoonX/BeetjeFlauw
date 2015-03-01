@@ -1,0 +1,71 @@
+doctype html
+html
+  head
+    title= 'Beetje flauw.'
+    meta(charset='utf-8')
+    link(rel='stylesheet', href='/assets/css/bootstrap.css')
+    link(rel='stylesheet', href='/assets/css/blog.css')
+  body
+
+    // Head
+    .blog-masthead
+      .container
+        nav.blog-nav
+          a.blog-nav-item.active Beetjeflauw.nl
+
+    .container
+      .blog-header
+        h1.blog-title Beetje flauw.
+        p.lead.blog-description De stortplaats voor onzin welke anders verloren zou gaan in de geschiedenis.
+        hr
+
+      .row
+        .col-sm-12.blog-main
+          block content
+
+        //.col-sm-3.col-sm-offset-1.blog-sidebar
+        //  .sidebar-module.sidebar-module-inset
+        //    h4 Over ons
+        //    p Wij zijn een beetje flauw.
+        //
+        //  hr
+        //
+        //  .sidebar-module
+        //    h4 Categorieën
+        //    ul.nav.nav-list
+        //      - each cat in getCategories()
+        //        li
+        //          a(href=categoryURL(cat)) #{cat}
+        //
+        //    hr
+        //
+        //    h4 Tags
+        //    ul.nav.nav-list
+        //      - each tag in getTags()
+        //        li
+        //          a(href=tagURL(tag)) #{tag}
+
+    footer.blog-footer
+      p
+        a(href="http://www.spoonx.nl/") SpoonX.nl
+
+
+    //.navbar.navbar-fixed-top
+    //  .navbar-inner
+    //    .container
+    //      a.brand(href='/') Poet Demos
+    //.container
+    //  .row
+    //    .col-sm-8
+    //      block content
+    //    .col-sm-4
+    //      .well.sidebar-nav
+    //        ul.nav.nav-list
+    //          li.nav-header categories
+    //          - each cat in getCategories()
+    //            li
+    //              a(href=categoryURL(cat)) #{cat}
+    //          li.nav-header tags
+    //          - each tag in getTags()
+    //            li
+    //              a(href=tagURL(tag)) #{tag}

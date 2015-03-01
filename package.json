@@ -1,0 +1,38 @@
+{
+  "name": "beetjeflauw",
+  "version": "1.0.0",
+  "description": "Blog for beetjeflauw",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.12.0",
+    "express-handlebars": "^1.2.1",
+    "forever": "^0.14.1",
+    "jade": "^1.9.2",
+    "marked": "^0.3.3",
+    "moment": "^2.9.0",
+    "poet": "^2.0.0",
+    "pygmentize-bundled": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node_modules/forever/bin/forever start index.js",
+    "stop": "node_modules/forever/bin/forever stop index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:SpoonX/BeetjeFlauw.git"
+  },
+  "keywords": [
+    "blog",
+    "spoonx",
+    "beetjeflauw",
+    "humor",
+    "linguistics"
+  ],
+  "author": "SpoonX",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SpoonX/BeetjeFlauw/issues"
+  },
+  "homepage": "https://github.com/SpoonX/BeetjeFlauw"
+}
