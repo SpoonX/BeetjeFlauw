@@ -10,8 +10,10 @@ moment.locale('nl');
 
 poet = new Poet(app, {postsPerPage: 5});
 
-poet.init().then(function () {
-  // initialized
+poet.watch(function () {
+  // watcher reloaded
+}).init().then(function () {
+  // Ready to go!
 });
 
 app.locals.moment = moment;
